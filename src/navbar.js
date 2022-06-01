@@ -4,7 +4,7 @@ export const Navbar = () => {
   return (
     <div>
       <h1>The Warehouse - Waterloo</h1>
-      <ul>
+      <ul className="d-flex" >
         <li>Home</li>
         <li>Studios</li>
         <li>Contact</li>
