@@ -1,3 +1,4 @@
+import React from 'react';
 import './MapBox.scss';
 
 export const MapBox = () => {
