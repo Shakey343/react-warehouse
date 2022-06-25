@@ -6,6 +6,8 @@ import Stack from 'react-bootstrap/Stack';
 export const HomePage = () => {
   return (
     <>
+    <div className="warehouse-banner" >
+    </div>
     <Stack direction="horizontal" gap={3}>
     <div className="hp-content" >
       <p>Nestled in the cultural heart of London, The Warehouse Waterloo is a 4000 square feet studio complex, converted from two Victorian warehouses, just a few minutes walk from Waterloo Station. The Warehouse offers an exhaustive range of versatile facilities, appropriate for multi-purpose use by groups of various sizes. Clients range from orchestras, theatre productions, radio and television companies, and national and international corporations. The building has maintained all the charm of its original architecture to produce a unique space which is both beautiful and acoustically perfect.</p>
