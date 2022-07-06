@@ -1,8 +1,12 @@
-import React from 'react';
-import './MapBox.scss';
+import React, { useState } from "react";
+import "./MapBox.scss";
 
 export const MapBox = () => {
-  return (
-    <div>Map</div>
-  );
-}
+  const [title, setTitle] = useState('Map');
+
+  const handleClick = () => {
+    setTitle('MAP!!!');
+  }
+
+  return <button onClick={handleClick} >{title}</button>;
+};

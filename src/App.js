@@ -7,8 +7,8 @@ import { HomePage } from './components/HomePage';
 function App() {
   return (
     <>
-    <NavbarW />
-    <HomePage />
+      <NavbarW />
+      <HomePage />
     </>
   );
 }
