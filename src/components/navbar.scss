@@ -1,5 +1,11 @@
 .Navbar {
-  opacity: 0.9;
   position: sticky;
   top: 0;
+  &.see-through {
+    opacity: 0.9;
+    transition: opacity 1s ease;
+  }
+  &:hover {
+    opacity: 1;
+  }
 }
