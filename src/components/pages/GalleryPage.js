@@ -1,1 +1,0 @@
-import "./GalleryPage.scss";
