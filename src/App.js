@@ -2,7 +2,7 @@
 import React from 'react';
 import './App.scss';
 import { NavbarW } from './components/navbar';
-import { HomePage } from './components/HomePage';
+import { HomePage } from './components/pages/HomePage';
 
 function App() {
   return (

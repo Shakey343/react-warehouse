@@ -1,6 +1,6 @@
 import React from 'react';
 import './HomePage.scss';
-import { MapBox } from './MapBox';
+import { MapBox } from '../MapBox';
 import Stack from 'react-bootstrap/Stack';
 
 export const HomePage = () => {
