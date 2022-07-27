@@ -15,8 +15,12 @@ export const NavbarW = (props) => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
           <Nav className="me-0">
-            <Nav.Link href="#lfo">LFO</Nav.Link>
-            <Nav.Link href="#rosspople">Ross Pople</Nav.Link>
+            <Nav.Link href="#lfo" onClick={props.onLfoClick}>
+              LFO
+            </Nav.Link>
+            <Nav.Link href="#rosspople" onClick={props.onRpClick}>
+              Ross Pople
+            </Nav.Link>
             <NavDropdown title="The Spaces" id="basic-nav-dropdown">
               <NavDropdown.Item href="#spaces/1">Studio 1</NavDropdown.Item>
               <NavDropdown.Item href="#spaces/2">Studio 2</NavDropdown.Item>
